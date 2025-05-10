@@ -1,16 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        // Membuat objek dari class Mahasiswa
-        Mahasiswa m1 = new Mahasiswa();
-        m1.nama = "Mikhaii";
-        m1.umur = 20;
-        m1.tampilInfo();
+        Kalkulator k = new Kalkulator();
 
-        System.out.println();
-
-        Mahasiswa m2 = new Mahasiswa();
-        m2.nama = "Hilmi";
-        m2.umur = 21;
-        m2.tampilInfo();
+        System.out.println("Tambah int: " + k.tambah(2, 3));          // 5
+        System.out.println("Tambah double: " + k.tambah(2.5, 3.5));    // 6.0
+        System.out.println("Tambah 3 angka: " + k.tambah(1, 2, 3));    // 6
     }
 }
