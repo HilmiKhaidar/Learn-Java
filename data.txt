@@ -1,0 +1,2 @@
+Halo tuan muda!
+Selamat belajar Java file handling.
